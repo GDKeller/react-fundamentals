@@ -21,11 +21,11 @@
 
 <body>
     <div id="root"></div>
-    <script type="module">
-        const rootElement = document.getElementById('root')
-        const element = document.createElement('div')
-        element.textContent = 'Hello World'
-        element.className = 'container'
-        rootElement.append(element)
-    </script>
 </body>
+
+<script type="module">
+    const root = document.getElementById('root');
+    const div = document.createElement('div');
+    div.textContent = 'Hello World';
+    root.appendChild(div);
+</script>
